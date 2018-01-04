@@ -1,3 +1,9 @@
+// Array Element Finding
+let array = ['a','b','c','d','e'];
+array.find( x => x == 'e') // 'e'
+array.findIndex( x => x == 'e') // 4
+
+
 //Javascript: find an object in array based on object's property
 let obj = objArray.find(function (obj) { return obj.id === 3; });
 
