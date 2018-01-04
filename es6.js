@@ -2,6 +2,12 @@
 var obj = {a:0};
 var copy = Object.assign({},obj); // {a:0}
 
+// Merge With same properties
+var obj1 = {a:1,b:2,c:1};
+var obj2 = {b:2,c:1};
+var obj3 = {c:3};
+var obj = Object.assign({},obj1,obj2,obj3); // {a:1,b:2,c:3};
+
 // Array Element Finding
 let array = ['a','b','c','d','e'];
 array.find( x => x == 'e') // 'e'
