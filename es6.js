@@ -23,6 +23,11 @@ Number.isFinite(-Infinity) // false
 "Hello".includes("ell",1); //true
 "Hello".includes("ell",2); //false
 
+// String repeating
+let repeat = 'foo '.repeat(3); // foo foo foo
+
+
+
 
 
 
