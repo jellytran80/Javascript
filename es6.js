@@ -1,3 +1,7 @@
+// Object clone
+var obj = {a:0};
+var copy = Object.assign({},obj); // {a:0}
+
 // Array Element Finding
 let array = ['a','b','c','d','e'];
 array.find( x => x == 'e') // 'e'
