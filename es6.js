@@ -16,4 +16,13 @@ Number.isFinite(7) // true
 Number.isFinite(Infinity) // false
 Number.isFinite(-Infinity) // false
 
+// String Searching
+"Hello".startsWith("ello",1); //true
+"Hello".endsWith("hell",4); //true
+"Hello".includes("ell"); //true
+"Hello".includes("ell",1); //true
+"Hello".includes("ell",2); //false
+
+
+
 
