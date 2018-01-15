@@ -44,6 +44,8 @@ let repeat = 'foo '.repeat(3); // foo foo foo
 
 
 
-
-
+// Default Parameters in ES6
+var link = function(height = 50, color = 'red', url = 'http://google.com') {
+  ...
+}
 
