@@ -47,3 +47,8 @@ var link = function(height = 50, color = 'red', url = 'http://google.com') {
   ...
 }
 
+// Template Literals in ES6
+var name = `Your name is ${first} ${last}.`
+var url = `http://localhost:3000/api/messages/${id}`
+
+
