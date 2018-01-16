@@ -1,3 +1,21 @@
+// Default Parameters in ES6
+var link = function(height = 50, color = 'red', url = 'http://google.com') {
+  ...
+}
+  
+// Template Literals in ES6
+var name = `Your name is ${first} ${last}.`
+var url = `http://localhost:3000/api/messages/${id}`
+
+// Multi-line String in ES6
+var roadPoem = `Then took the other, as just as fair,
+    And having perhaps the better claim
+    Because it was grassy and wanted wear,
+    Though as for that the passing there
+    Had worn them really about the same,`
+var fourAgreements = `You have the right to be you.
+    You can only be you when you do your best.`
+
 // Object clone
 var obj = {a:0};
 var copy = Object.assign({},obj); // {a:0}
@@ -41,14 +59,3 @@ Number.isFinite(-Infinity) // false
 
 // String repeating
 let repeat = 'foo '.repeat(3); // foo foo foo
-
-// Default Parameters in ES6
-var link = function(height = 50, color = 'red', url = 'http://google.com') {
-  ...
-}
-
-// Template Literals in ES6
-var name = `Your name is ${first} ${last}.`
-var url = `http://localhost:3000/api/messages/${id}`
-
-
